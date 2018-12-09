@@ -1,0 +1,493 @@
+* {
+    font-family: "Courier New", Courier, monospace;
+}
+
+body {
+    background-color: #111;
+}
+
+header {
+    height: 212px;
+}
+
+
+#wrapper {
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #E5CB9A;
+}
+
+
+#backgroundphoto {
+    display: table-cell;
+    height: 500px;
+    background-image: url(img/backgroundphoto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    vertical-align: middle;
+
+}
+
+#backgroundphoto h1 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 5px 5px #111;
+}
+
+#backgroundphoto h2 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 5px 5px #111;
+}
+
+
+#apparelbackgroundphoto {
+    width: 100%;
+    display: table-cell;
+    height: 500px;
+    background-image: url(img/apparelbackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    vertical-align: middle;
+
+}
+
+#apparelbackgroundphoto h1 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 5px 5px #111;
+}
+
+#apparelbackgroundphoto h2 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 5px 5px #111;
+}
+
+#shoesbackgroundphoto {
+    width: 100%;
+    display: table-cell;
+    height: 500px;
+    background-image: url(img/shoesbackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    vertical-align: middle;
+
+}
+
+#shoesbackgroundphoto h1 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 5px 5px #111;
+}
+
+#shoesbackgroundphoto h2 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 5px 5px #111;
+}
+
+#miscbackgroundphoto {
+    width: 100%;
+    display: table-cell;
+    height: 500px;
+    background-image: url(img/miscbackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    vertical-align: middle;
+
+}
+
+#miscbackgroundphoto h1 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 5px 5px #111;
+}
+
+#miscbackgroundphoto h2 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 5px 5px #111;
+}
+
+#gearbackgroundphoto {
+    width: 100%;
+    display: table-cell;
+    height: 500px;
+    background-image: url(img/gearbackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    vertical-align: middle;
+
+}
+
+#gearbackgroundphoto h1 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 5px 5px #111;
+}
+
+#gearbackgroundphoto h2 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 5px 5px #111;
+}
+
+header img {
+    object-fit: cover;
+    width: 135px;
+    height: 135px;
+    padding-top: 50px;
+    padding-left: 50px;
+    float: left
+}
+
+header p {
+    line-height: 150px;
+    float: left;
+    color: white;
+    font-size: 30px;
+    padding-left: 40px;
+    margin-bottom: 0;
+}
+
+#nav {
+    text-align: center;
+
+}
+
+#nav ul {
+    display: inline;
+    list-style-type: none;
+    border-bottom: 5px solid;
+}
+
+#nav ul li {
+    text-align: center;
+    width: 33%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline;
+}
+
+#nav ul li a {
+
+    margin-right: 25px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 10;
+    text-decoration: none;
+    color: #111;
+}
+
+.button-list {
+    display: inline-block;
+}
+
+.orange-button {
+    float: left;
+    text-align: center;
+    margin-top: 24px;
+    height: 100px;
+    width: 66%;
+    background-color: #E58F04;
+}
+
+.orange-button p {
+    color: white;
+    font-size: 60px;
+    text-decoration: none;
+    margin: auto;
+    line-height: 100px;
+
+
+}
+
+.grey-button {
+    border: 3px solid;
+    border-color: #111;
+    float: right;
+    text-align: center;
+    margin-top: 24px;
+    height: 100px;
+    width: 66%;
+    background-color: #E3E3E3;
+}
+
+.grey-button p {
+    color: #111;
+    font-size: 60px;
+    text-decoration: none;
+    margin: auto;
+    line-height: 100px;
+}
+
+.apparel-image {
+    margin-top: 24px;
+    height: 100px;
+    width: 100px;
+    float: right;
+    content: url(img/Apparel.jpeg);
+    object-fit: cover
+}
+
+.shoes-image {
+    content: url(img/Athletic_Shoes.jpg);
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-top: 24px
+}
+
+.gear-image {
+    content: url(img/Gear.jpg);
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+    float: right;
+    margin-top: 24px
+}
+
+.misc-image {
+    content: url(img/Misc.jpeg);
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-top: 24px;
+}
+
+#brandshowcase{
+    display: inline-block;
+}
+
+#brandshowcase h1 {
+    text-align: center;
+    color: #111;
+    font-size: 40px;
+}
+
+#brandshowcase h2 {
+    margin-left: 5px;
+    color: #111;
+}
+
+#brandshowcase a {
+    margin-left: 5px;
+    color: #111;
+}
+
+#brandshowcase p {
+    margin-left: 5px;
+    color: #111;
+}
+
+#brandshowcase video{
+    width: 50%;
+    height: 300px;
+}
+
+#brandshowcase img {
+    object-fit: cover;
+    width: 50%;
+    height: 300px;
+}
+
+#brandshowcase a img{
+    width: 30px;
+    height: 30px;
+}
+
+footer {
+    margin-top: 22px;
+    border-top: 2px solid;
+    border-top-color: white;
+    height: 100px;
+}
+
+footer p {
+
+    margin-left: 25px;
+    line-height: 60px;
+    color: #111;
+}
+
+#hoursofoperation h1 {
+    text-align: center;
+}
+
+#hoursofoperation table {
+    margin: auto;
+}
+
+#hoursofoperation table th {
+    border: 2px solid black;
+    background-color: #E58F04;
+    padding: 5px;
+}
+
+#hoursofoperation table td {
+    border: 2px solid #E58F04;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+#hoursofoperation table thead {
+    text-align: center;
+}
+
+#hoursofoperation table thead tr th {
+    text-align: center;
+    background-color: white;
+}
+
+#hoursofoperation table tfoot tr th {
+    text-align: center;
+    margin: auto;
+    border: none;
+    background-color: #E5CB9A;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 8em;
+    padding-right: 1em;
+}
+
+input,
+textarea {
+    display: block;
+    margin-bottom: 1em;
+}
+
+#mySubmit {
+    margin-left: 9.5em;
+}
+
+
+/*Mobile CSS*/
+
+@media only screen and (max-width: 768px) {
+    #nav ul {
+        border-bottom: none;
+        display: inline;
+    }
+
+    #nav ul li {
+        float: left;
+        align-content: center;
+        width: 100%;
+        border-bottom: 2px solid;
+        display: inline-block;
+    }
+
+    #nav ul li a {
+
+        margin-right: 0;
+
+    }
+
+
+    #wrapper {
+        width: 100%;
+
+    }
+
+
+
+    #brandshowcase h2 {
+        text-align: center;
+    }
+
+    header img {
+        display: none;
+    }
+
+    header p {
+        padding-left: 0;
+        margin-bottom: 0;
+        float: none;
+        text-align: center;
+
+
+    }
+
+    #brandshowcase p {
+        text-align: center;
+    }
+
+    #brandshowcase img {
+        width: 100%;
+
+    }
+    
+    #brandshowcase video{
+        width: 100%
+    }
+
+    .apparel-image {
+        display: none;
+    }
+
+    .shoes-image {
+        display: none;
+    }
+
+    .gear-image {
+        display: none;
+    }
+
+    .misc-image {
+        display: none;
+    }
+
+    .grey-button {
+        border: none;
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .orange-button {
+        float: right;
+        border: none;
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .orange-button p {
+        font-size: 30px;
+    }
+
+    .grey-button p {
+        font-size: 30px;
+    }
+
+    .button-list {
+        display: inline-block;
+    }
+
+    form {
+        padding: 2em;
+    }
+}
